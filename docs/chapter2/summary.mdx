@@ -1,0 +1,35 @@
+---
+sidebar_position: 0
+title: Angular On-Boarding
+---
+
+import EmbedVideo from "@site/src/components/VideoEmbed";
+
+# Chapter 2 - Quick Tour of Angular
+
+In this section we will build a quick and dirty Angular application. The intention here is to give you a bit of experience with the tools, languages, and the basics of Angular's architecture and approach to building applications.
+
+In this section we will install and use the [Angular CLI](https://angular.io/cli) to create a basic Angular application. We will delete the majority of the generated code and build a simple application from "first principals" to help you understand the various _thingies_ that make up an Angular application, and their relationship to one another.
+
+## Installing the Angular CLI
+
+The Angular CLI (Command Line Interface) is a suite of tools maintained by the Angular team for creating, developing, testing, and delivering Angular applications.
+
+:::caution
+Make sure you have at least the current LTS version of Node and the Node Package Manager Installed
+:::
+
+We will install the Angular CLI globally. This means once the command installs successfully, you will have a new command (`ng`) on your path. The `ng` command is the entry-point to the Angular CLI.
+
+```shell
+npm i -g @angular/cli
+```
+
+<EmbedVideo id="814286011" />
+
+:::note In later sections, we will use an Nx Workspace as a way to manage our Angular
+application. It uses some of the features of the Angular CLI behind the scenes, so
+knowing a bit about it is helpful.
+:::
+
+## Creating an Angular Application
