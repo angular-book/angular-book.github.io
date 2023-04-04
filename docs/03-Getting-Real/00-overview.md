@@ -1,3 +1,7 @@
+---
+sidebar_position: 0
+---
+
 # Chapter 3 - Getting Real
 
 Angular's sweet-spot is in building large applications that are maintained by many different developers over a long period of time. Angular is called an _opinionated_ framework because it is largely "batteries included": One `ng new` and you have just about everything you need to create an application, including support for routing, some testing, and even an Http client. Not all frameworks or libraries for developing web apps are this extensive. In React, for example, you have a lot of different choices for each of those modules. This has advantages as well. When you have a product you want to build that needs to distinguish itself in it's technical prowess and how that tech matches the business domain, _and_ if you have a team of developers that all work together and make the choices for each particular module or component in the applications, more freedom might be a good thing.

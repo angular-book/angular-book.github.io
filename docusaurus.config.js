@@ -68,12 +68,25 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
+   
           {
             type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            sidebarId: "prereqs",
             position: "left",
-            label: "The Book",
+            label: "Getting Ready",
           },
+          {
+            type: "docSidebar",
+            sidebarId: "angular101",
+            position: "left",
+            label: "Angular 101",
+          },
+          {
+            type: "docSidebar",
+            sidebarId: "realWorld",
+            position: "left",
+            label: "Real World Angular",
+          }
         ],
       },
       footer: {

@@ -25,3 +25,33 @@ ng new frontend --minimal
 We'll say no to adding a routing (we will add it in later), and just use plain old CSS.
 
 <EmbedVideo id="814608298" />
+
+## VsCode Setup
+
+TODO: Put some stuff here about VS Code, enabling the Angular Language Service extension,
+and a `.vscode/settings.json` file.
+
+`settings.json`:
+
+```json
+{
+  "editor.linkedEditing": true,
+  "explorer.openEditors.visible": 0,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 0,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false
+}
+```
+
+TODO:
+
+- Make the app.component standalong.
+- Delete app module.
+- Change `main.ts` to be:
+
+```ts
+bootstrapApplication(AppComponent);
+```

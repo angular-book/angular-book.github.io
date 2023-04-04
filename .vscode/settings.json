@@ -1,0 +1,10 @@
+{
+    "editor.linkedEditing": true,
+    "explorer.openEditors.visible": 0,
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+}
