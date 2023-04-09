@@ -18,6 +18,8 @@ We are using Angular 15, and we will prefer to use stand-alone components and no
 
 We will use the Angular CLI to create a minimal Angular app. The `--minimal` flag on `ng new` will mean we'll get no tests, and it will set some defaults for how components and things are created.
 
+⚒️ Go to a command prompt and navigate to a directory where you want to store you work.
+
 ```shell
 ng new frontend --minimal
 ```

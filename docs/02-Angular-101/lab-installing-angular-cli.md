@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Installing Angular CLI
+title: ⚒️ Installing Angular CLI
 ---
 
 # Installing the Angular CLI
@@ -14,6 +14,8 @@ Make sure you have at least the current LTS version of Node and the Node Package
 :::
 
 We will install the Angular CLI globally. This means once the command installs successfully, you will have a new command (`ng`) on your path. The `ng` command is the entry-point to the Angular CLI.
+
+⚒️ Go to a shell and run the following command. This is a global command, so it doesn't matter what directory you are in.
 
 ```shell
 npm i -g @angular/cli
