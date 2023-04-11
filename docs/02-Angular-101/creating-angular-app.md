@@ -37,20 +37,15 @@ and a `.vscode/settings.json` file.
 
 ```json
 {
-  "editor.linkedEditing": true,
-  "explorer.openEditors.visible": 0,
   "editor.formatOnSave": true,
   "files.autoSave": "onFocusChange",
-  "editor.minimap.enabled": false,
-  "window.zoomLevel": 0,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "explorer.confirmDelete": false
+  "editor.minimap.enabled": false
 }
 ```
 
 TODO:
 
-- Make the app.component standalong.
+- Make the app.component standalone.
 - Delete app module.
 - Change `main.ts` to be:
 
