@@ -110,4 +110,14 @@ On the web, this type of application has been called a "Single Page Application"
 
 We usually think of the term "app" for something that we might install on our mobile device, like a game, a calendar tool, a social media application, etc. and I think the metaphor holds. Have you ever noticed the difference between a well-designed application from a company, and one that is very obviously just some kind of *wrapper* around their web site? To me, it almost always immediately identifiable, and the experience isn't great. 
 
+Why am I saying all of this? Basically, if you don't need an "App" like experience, but a "web server" like experience, then don't use Angular. Angular shouldn't be a replacement for proven technology we have decades of experience using. 
 
+:::caution
+**IF** You can build your application using something like PHP, Ruby on Rails, or ASP.NET MVC, you probably shouldn't use Angular (or any other front-end framework). Often those kind of applications can be built (and maintained) for a *fraction* of the price, delivered more quickly, and even enhanced with some JavaScript using tools like Vue or Svelte to give "islands" of interactivity where you need it. I've seen projects that cost millions, and cause all sorts of headaches where they could have been a simple MVC site, and offer nothing in addition to that.
+
+Your job as an *application developer* is to apply technology *appropriately* for the good of the business.
+
+Now that doesn't mean, obviously, Angular is *never* a good choice. With Angular you can create a user experience that far exceeds what you can do with most server-side web application technology. You can create new user experiences that extend your business in ways we just couldn't do before. 
+
+When building Angular applications, you are building *Apps*. Think about applications, not web sites. 
+:::
