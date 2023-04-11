@@ -4,7 +4,7 @@ sidebar_position: 3.5
 
 import EmbedVideo from "@site/src/components/VideoEmbed";
 
-# Compiling and Serving your Application
+# ⚒️ Compiling and Serving your Application
 
 Ultimately, your Angular application will be built for "production". It will just be an HTML file, some CSS, and a few JavaScript files. 
 

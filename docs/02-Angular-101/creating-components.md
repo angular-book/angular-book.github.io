@@ -2,7 +2,7 @@
 sidebar_position: 4.1
 ---
 
-# Creating Components in Angular
+# ⚒️ Creating Components in Angular
 
 ## What Makes a Component?
 
