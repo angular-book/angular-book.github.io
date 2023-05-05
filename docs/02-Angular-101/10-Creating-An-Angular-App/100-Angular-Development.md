@@ -74,7 +74,7 @@ But *imagine* what a bad user experience it would be if everytime you browsed to
 Believe it or not, we got really close to a web where if developers didn't create correct markup, browsers would refuse to display the page. Google did a little research (they basically *are* a database of *everything* that is on the web) and something like 90% of the web would have gone black if the XHTML fascists had their way.
 :::
 
-The problem is, while the [World Wide Web Consortium](w3c.org) does specify what is considered *proper* HTML, it does *not* specify what browsers should do if the HTML is *improper*. It's pretty much up to the browser manufacturers. That means that the browser you are testing your HTML on might handle it in a way you don't detect, but another may display it in a completely different way.
+The problem is, while the [World Wide Web Consortium](https://w3c.org) does specify what is considered *proper* HTML, it does *not* specify what browsers should do if the HTML is *improper*. It's pretty much up to the browser manufacturers. That means that the browser you are testing your HTML on might handle it in a way you don't detect, but another may display it in a completely different way.
 
 The way Angular helps us with this in our *inner feedback loop* is that it actually doesn't use HTML *at all*. Similar to how we use TypeScript to produce our JavaScript (and verify it!), we use Angular Templates to create the Document Object Model in the browser.
 
