@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3.6
+title: "📗 Project File Structure"
 ---
 
 # Angular Project File Structure
@@ -32,7 +33,7 @@ A generic icon for the application, should the user decide to bookmark it. This 
 
 ### `index.html`
 
-This is a template file that is used both during development and in your final build. 
+This is a template file that is used both during development and in your final build.
 
 ```html
 <!doctype html>
@@ -54,7 +55,7 @@ Notice the `<body>...</body>` element has a strange element named `<app-root></a
 
 ### `main.ts`
 
-This is the *entry point* for your Angular application. All compilation and execution begins here. 
+This is the *entry point* for your Angular application. All compilation and execution begins here.
 
 ### `styles.css`
 
@@ -64,10 +65,9 @@ This is the *global* styles for your Angular application. Each component, as you
 
 This is where your application code goes. With a *minimal* Angular application, this contains just an `app.component.ts` and an `app.module.ts` file. All the components, services, etc. we create will be in this directory.
 
-### `assets` Directory.
+### `assets` Directory
 
 Files placed in this directory are *static* assets, like images, etc. They will be included in the compiled output of our application and can be referenced by our Angular code.
-
 
 ## `angular.json`
 
@@ -77,7 +77,7 @@ This is the configuration for your Angular application. It contains configuratio
 
 These are for tracking project dependencies (Node modules).
 
-## `README.md` 
+## `README.md`
 
 A generated README file with some basic instructions on how to serve your application, etc. You can modify this with information specific to your project to give other developers a sense of what your project is all about.
 
